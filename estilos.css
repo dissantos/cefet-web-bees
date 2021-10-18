@@ -82,3 +82,7 @@ p:last-of-type{
 img:not(img[alt]){
     border: 3px solid red;
 }
+
+#sem-flutuacao {
+    clear: left;
+}
