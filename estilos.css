@@ -45,3 +45,40 @@ body {
     float: right;
     margin-left: 20px;
 }
+
+#div-logo {
+    background-color: #FFF9;
+    box-shadow: 4px 4px 4px #0003;
+    padding: 30px;
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: green;
+}
+a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+a:active {
+    text-decoration: none;
+    color: orangered;
+}
+
+a[href^="http"]{
+    background-color: paleturquoise;
+}
+
+p:last-of-type{
+    text-align: right;
+}
+
+img:not(img[alt]){
+    border: 3px solid red;
+}
