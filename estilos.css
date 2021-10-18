@@ -1,10 +1,16 @@
+html{
+    height: 100%;
+}
+
 body {
+    height: 100%;
     background-image: linear-gradient(0deg, #82f782, #f1f08e, #9beaf5);
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 20px;
     margin: 0px 8%;
     text-align: justify;
+    background-attachment: fixed;
 }
 
 #logo{
@@ -15,11 +21,27 @@ body {
 .curiosidade {
     background-image: url('imgs/favo-de-mel.png');
     border-radius: 5px;
-    border: 1px solid goldenrod;
+    border: 1px solid gold;
     padding: 20px
 }
 
 .curiosidade img {
     float: left;
     margin-right: 20px;
+}
+
+.casta-de-abelha {
+    border-radius: 50%;
+    border: 5px double gold;
+    shape-outside: circle();
+}
+
+.esquerda {
+    float: left;
+    margin-right: 20px;
+}
+
+.direita {
+    float: right;
+    margin-left: 20px;
 }
